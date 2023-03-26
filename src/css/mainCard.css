@@ -17,6 +17,6 @@
     background-repeat: no-repeat;
 }
 .main-card-container .main-card-right{
-    flex: 67;
-    margin-left: 1%;
+    flex: 60;
+    padding-left: 6%;
 }

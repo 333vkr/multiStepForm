@@ -1,0 +1,14 @@
+.heading-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading-info .heading{
+    margin: 2% 0 0 0;
+    color:hsl(213, 96%, 18%) ;
+}
+.heading-info .description{
+    margin: 1% 0;
+    font-size: 14px;
+    color: hsl(231, 11%, 63%);
+}
