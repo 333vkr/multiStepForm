@@ -19,4 +19,8 @@
 .main-card-container .main-card-right{
     flex: 60;
     padding-left: 6%;
+    position: relative;
+}
+.main-card-right .form-container{
+    margin-top: 6%;
 }
