@@ -15,6 +15,7 @@
     background-image: url(../assets/images/bg-sidebar-desktop.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    padding-top: 2%;
 }
 .main-card-container .main-card-right{
     flex: 60;

@@ -5,12 +5,16 @@ import HeadingInfo from "./utils/HeadingInfo";
 import Input from "./utils/Input";
 import InputLabelGroup from "./utils/InputLabelGroup";
 import StepCount from "./utils/StepCount";
+import StepCard from "./utils/StepCard";
 const MainCard = () => {
   const stepOneDesc = "Please provide your name, address and phone number.";
   return (
     <div className="main-card-container">
       <div className="main-card-left">
-        <StepCount count={1}/>
+        <StepCard count={1} stepLabel='STEP 1' heading='YOUR INFO' isCompleted={true}/>
+        <StepCard count={2} stepLabel='STEP 2' heading='SELECT PLAN' isCompleted={false}/>
+        <StepCard count={3} stepLabel='STEP 3' heading='ADD-ONS' isCompleted={false}/>
+        <StepCard count={4} stepLabel='STEP 4' heading='SUMMARY' isCompleted={false}/>
       </div>
       <div className="main-card-right">
         <HeadingInfo heading="Personal Info" description={stepOneDesc} />
